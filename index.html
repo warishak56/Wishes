@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid Mubarak</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('./public/123.jpg') no-repeat center center/cover;
+            font-family: Arial, sans-serif;
+        }
+        @keyframes glow {
+    0% { text-shadow: 0 0 5px gold; }
+    50% { text-shadow: 0 0 20px gold; }
+    100% { text-shadow: 0 0 5px gold; }
+}
+.moon {
+    font-size: 50px;
+    color: gold;
+    animation: glow 2s infinite alternate;
+}
+.celebrate {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    background: gold;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.celebrate:hover {
+    background: white;
+    color: gold;
+    transform: scale(1.1);
+}
+
+        .card {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .moon {
+            font-size: 50px;
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="moon">🌙</div>
+        <h2 style="font-size: 1.5em; font-style: italic;">عيد مبارك</h2>
+
+        <h1>Eid Mubarak Meri Jaan </h1>
+        <p>
+            I hope you're stuffing your face with amazing food and having the best time! <br>  
+            Sending you all my love, hugs, and a million smiles. <br>  
+            I miss you and can't wait for the day we celebrate together!!! <br><br>  
+            Miss you! 💖✨  
+        </p>
+        
+        <a href="first.html" class="celebrate">Let's Celebrate</a>
+
+    </div>
+</body>
+</html>
